@@ -24,8 +24,8 @@ public class Student {
      * Returns all courses this student is currently enrolled in.
      */
     public List<Course> getCourses() {
-        List<Courses>coursesCopy 
-        return courses;
+        List<Course> coursesCopy =  new ArrayList<Course>(courses);
+        return coursesCopy;
     }
 
     /**

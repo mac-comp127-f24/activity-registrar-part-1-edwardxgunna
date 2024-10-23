@@ -79,11 +79,7 @@ class RegistrarTest {
         List<Course> courses = sally.getCourses();
         courses.add(comp127);
     }
-
-    @Test
-    void clientCannotModifyCourses() {
-        sally.getCourses().add(comp127);
-    }
+    
     // ------ Post-test invariant check ------
     //
     // This is a bit persnickety for day-to-day testing, but these kinds of checks are appropriate
