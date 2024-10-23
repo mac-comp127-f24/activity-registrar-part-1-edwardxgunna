@@ -25,6 +25,7 @@ public class Course {
         return catalogNumber;
     }
 
+    
     public String getTitle() {
         return title;
     }
